@@ -3,6 +3,7 @@
 :root {
     --background-color: rgb(255, 230, 92);
     --text-color: rgb(29, 29, 29);
+    --img-bg-color: rgb(34, 104, 255);
 }
 
 * {
@@ -77,4 +78,8 @@ section.top3 ol > li {
     width: 200px;
     height: 200px;
     border-radius: 1rem;
+}
+
+.gallery-img:first-child {
+    background-color: var(--img-bg-color);
 }
